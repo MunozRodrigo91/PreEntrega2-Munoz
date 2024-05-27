@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    background-image: linear-gradient(45deg, rgb(37, 6, 46) 0%, rgb(37, 6, 46) 28%,rgb(66, 27, 59) 28%, rgb(66, 27, 59) 31%,rgb(96, 48, 72) 31%, rgb(96, 48, 72) 59%,rgb(125, 69, 85) 59%, rgb(125, 69, 85) 66%,rgb(154, 90, 97) 66%, rgb(154, 90, 97) 68%,rgb(184, 111, 110) 68%, rgb(184, 111, 110) 94%,rgb(213, 132, 123) 94%, rgb(213, 132, 123) 100%),linear-gradient(112.5deg, rgb(37, 6, 46) 0%, rgb(37, 6, 46) 28%,rgb(66, 27, 59) 28%, rgb(66, 27, 59) 31%,rgb(96, 48, 72) 31%, rgb(96, 48, 72) 59%,rgb(125, 69, 85) 59%, rgb(125, 69, 85) 66%,rgb(154, 90, 97) 66%, rgb(154, 90, 97) 68%,rgb(184, 111, 110) 68%, rgb(184, 111, 110) 94%,rgb(213, 132, 123) 94%, rgb(213, 132, 123) 100%),linear-gradient(90deg, rgb(37, 6, 46) 0%, rgb(37, 6, 46) 28%,rgb(66, 27, 59) 28%, rgb(66, 27, 59) 31%,rgb(96, 48, 72) 31%, rgb(96, 48, 72) 59%,rgb(125, 69, 85) 59%, rgb(125, 69, 85) 66%,rgb(154, 90, 97) 66%, rgb(154, 90, 97) 68%,rgb(184, 111, 110) 68%, rgb(184, 111, 110) 94%,rgb(213, 132, 123) 94%, rgb(213, 132, 123) 100%),linear-gradient(135deg, rgb(37, 6, 46) 0%, rgb(37, 6, 46) 28%,rgb(66, 27, 59) 28%, rgb(66, 27, 59) 31%,rgb(96, 48, 72) 31%, rgb(96, 48, 72) 59%,rgb(125, 69, 85) 59%, rgb(125, 69, 85) 66%,rgb(154, 90, 97) 66%, rgb(154, 90, 97) 68%,rgb(184, 111, 110) 68%, rgb(184, 111, 110) 94%,rgb(213, 132, 123) 94%, rgb(213, 132, 123) 100%),linear-gradient(90deg, rgb(100, 205, 26),rgb(46, 36, 113)); background-blend-mode:overlay,overlay,overlay,overlay,normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-position: center;
+    background-size: cover;
+}
+
+/* LOGO PRINCIPAL*/
+.logoubicacion { 
+    margin: 5vh;
+}
+
+/*BOTON MIS VIAJES*/
+.headernav {
+    background-color: rgb(199, 0, 57);
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 1% 5px 1%;
+    margin: 5vh;
+    border-radius: 25px;
+}
+.headernav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.headernav a:hover{
+    color: rgb(255, 198, 11);
+}
+
+/*PORTADA + REDIRECCIONAMIENTO*/
+.ul {
+    background-image: url(./../imagenes/Portada.jpg);
+    background-position: center center;
+    background-size: cover;
+   display: grid;
+   grid-template-columns: auto auto auto ;
+   padding: 0 20% 0 20%;
+   width: 100vw;
+   height: 60vh;
+}
+.li {
+    display: grid;
+    margin: 20px;
+    justify-content: center;
+    height: 25px;
+    width: 150px;
+    background-color: rgb(207, 207, 207);
+    opacity: 80%;
+    border-radius: 25px;
+}
+nav ul li a:hover{
+    color: rgb(199, 0, 57)
+    ;
+}
+nav ul li a {
+    text-decoration: none;
+    color:rgb(54, 5, 66);
+    font-weight: bold;
+}
+
+/*SECCION SUMATE A NUESTRAS REDES*/
+.container1{
+    display: grid;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.divsizecarousel{
+    height: 45vh;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-left: 10%;
+    overflow: hidden;
+}
+.arttext {
+justify-content: center;
+padding: 10px;
+margin-top: 20px;
+margin-bottom: 40px;
+color: rgb(255, 255, 255);
+
+}
+.styleidh2{
+    color: rgb(199, 0, 57);
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.styleidh4{
+    margin-bottom: 20px;
+}
+.styleidp{
+    text-align: justify;
+}
+
+/*SECCION FLEXIBLE TIME AGENT*/
+.meetingstyle{
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    background-position: center center;
+    background-size: cover;
+    justify-content: center;
+    overflow: hidden;
+    height: 45vh;
+}
+#button {
+    text-decoration: none;
+    color: rgb(255, 198, 11);
+    cursor: pointer;
+    font-weight: bold;
+}
+#button:hover{
+    color: black;
+}
+
+/*SECCION PATROCINADORES*/
+.partners{
+ display: flex;
+ object-fit: contain;
+ overflow: hidden;
+ background-position: center center;
+ justify-content: center;
+ height: 8vh;
+ margin: 20px 20px 20px 20px;
+}
+.espacio{
+    margin-top: 0;
+}
+
+/* FOOTER */
+#safe{
+    color: rgb(255, 255, 255);
+    font-size: small;
+    font-weight: bold;
+}
+#derechos{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-size: small;
+}
+@media (max-width: 480px){
+    .headernav {
+        font-size: 12px;
+        font-weight: bold;
+        padding: 5px 1% 5px 1%;
+        margin: 9vh;
+        border-radius: 25px;
+    }
+    .ul{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    li{
+        font-size: x-small;
+        text-align: center;
+    }
+    nav ul li a{
+        padding: 6px;
+    }   
+    .container1{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .arttext{
+        width: 80vw;
+    }
+    .divsizecarousel{
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+    }
+    .meetingstyle{
+        display: none;
+    }
+    .styleidp{
+        margin-bottom: -10%;
+    }
+    .espacio{
+        margin-top: 10%;
+    }
+    .partners{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: -10px 0px 0px -10px;
+       }
+    #safe{
+        margin-left:10px ;
+        font-size: x-small;
+    }
+    #derechos{
+        font-size: xx-small;
+    }
+
+}
+
+
+

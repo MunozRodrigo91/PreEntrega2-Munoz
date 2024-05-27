@@ -1,0 +1,14 @@
+
+
+.agente{
+    display: flex;
+    justify-content: center ;
+    }
+.coffework{
+    object-fit: contain;
+    background-position: center center;
+    background-size: cover;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 30px;
+}
