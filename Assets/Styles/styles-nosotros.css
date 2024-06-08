@@ -16,6 +16,27 @@ article{
     margin-bottom: 5%;
 }
 .ubibtn{
-   margin-top: 50%;
-   margin-left: 50%;
+   justify-content: center;
+   align-items: center;
+}
+#buttontn{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+#buttontn:hover{
+    color: blanchedalmond;
+}
+.cuadrogralslide{
+border-radius: 25px;
+}
+.slidesize{
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    background-position: center center;
+    background-size: cover;
+    justify-content: center;
+    overflow: hidden;
+    height: 70vh;
 }
