@@ -25,3 +25,15 @@ div h3{
     color: white;
     font-weight: bold;
 }
+@media (max-width: 480px){
+    div h1{
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    .styleidp1{
+        font-size: 12px;
+    }
+    div h3{
+        font-size: 15px;
+    }
+}
