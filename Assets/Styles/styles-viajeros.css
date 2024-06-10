@@ -1,0 +1,27 @@
+.titulo{
+    color: rgb(144, 12, 63) ;
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 25px;
+    background-color: rgb(218, 247, 166);
+}
+div h1{
+    font-weight: bold;
+}
+.arttext1{
+    color: white;
+}
+.styleidp1{
+    background-color: rgb(199, 0, 57);
+    color: rgb(255, 195, 0) ;
+    text-align: justify;
+    border-radius: 15px;
+    padding: 8px 8px 8px 8px;
+    font-style: italic;
+}
+div h3{
+    color: white;
+    font-weight: bold;
+}
