@@ -1,0 +1,25 @@
+{
+  "name": "proyectofeeltravel",
+  "version": "1.0.0",
+  "description": "incluyendo sass a mi proyecto",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MunozRodrigo91/PreEntrega2-Munoz.git"
+  },
+  "keywords": [
+    "travel",
+    "agent",
+    "learning",
+    "styles"
+  ],
+  "author": "PUC/ASC RODRIGOMUNOZ DEV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MunozRodrigo91/PreEntrega2-Munoz/issues"
+  },
+  "homepage": "https://github.com/MunozRodrigo91/PreEntrega2-Munoz#readme"
+}
