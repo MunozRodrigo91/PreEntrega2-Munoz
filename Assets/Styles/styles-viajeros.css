@@ -1,3 +1,8 @@
+.sizelogo {
+  width: 200px;
+  height: 100px;
+}
+
 .titulo {
   color: rgb(144, 12, 63);
   display: flex;
@@ -18,9 +23,9 @@ div h1 {
 
 .styleidp1 {
   background-color: rgb(199, 0, 57);
-  color: rgb(255, 195, 0);
+  color: rgb(255, 198, 11);
   text-align: justify;
-  border-radius: 15px;
+  border-radius: 25px;
   padding: 8px 8px 8px 8px;
   font-style: italic;
 }
@@ -31,6 +36,23 @@ div h3 {
 }
 
 @media (max-width: 480px) {
+  .body {
+    width: 100vw;
+    height: 100vh;
+  }
+  .sizelogo {
+    width: 150px;
+    height: 75px;
+    margin-top: 2vh;
+  }
+  .titulo {
+    width: 90vw;
+    font-size: 20px;
+    margin: auto;
+  }
+  .meetingstyle {
+    display: none;
+  }
   div h1 {
     font-size: 20px;
     padding-top: 5px;

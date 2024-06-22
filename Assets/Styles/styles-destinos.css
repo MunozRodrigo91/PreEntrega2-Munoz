@@ -1,8 +1,15 @@
+.sizelogo {
+  width: 200px;
+  height: 100px;
+}
+
 .ordenfte {
   background-image: url(./../imagenes/fte1.jpg);
   background-position: 14% 86%;
   background-size: cover;
   border-radius: 45px;
+  width: 99vw;
+  height: 35vh;
 }
 
 .ordenbrc {
@@ -10,6 +17,8 @@
   background-position: 30% 70%;
   background-size: cover;
   border-radius: 45px;
+  width: 99vw;
+  height: 35vh;
 }
 
 .ordenter {
@@ -17,6 +26,8 @@
   background-position: 29% 71%;
   background-size: cover;
   border-radius: 45px;
+  width: 99vw;
+  height: 35vh;
 }
 
 .ordenigr {
@@ -24,6 +35,8 @@
   background-position: 35% 65%;
   background-size: cover;
   border-radius: 45px;
+  width: 99vw;
+  height: 35vh;
 }
 
 .ordenmdz {
@@ -31,11 +44,14 @@
   background-position: 25% 75%;
   background-size: cover;
   border-radius: 45px;
+  width: 99vw;
+  height: 35vh;
 }
 
 .ubicacion {
   position: relative;
   text-align: center;
+  justify-content: center;
 }
 
 .ubicacion2 {
@@ -89,6 +105,31 @@ li {
 }
 
 @media (max-width: 480px) {
+  .sizelogo {
+    width: 150px;
+    height: 75px;
+    margin-top: 2vh;
+  }
+  .ordenfte {
+    width: 102vw;
+    height: 30vh;
+  }
+  .ordenbrc {
+    width: 102vw;
+    height: 30vh;
+  }
+  .ordenter {
+    width: 102vw;
+    height: 30vh;
+  }
+  .ordenigr {
+    width: 102vw;
+    height: 30vh;
+  }
+  .ordenmdz {
+    width: 102vw;
+    height: 30vh;
+  }
   .sizetext1 {
     font-size: 20px;
   }

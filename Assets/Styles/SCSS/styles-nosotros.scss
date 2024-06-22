@@ -1,5 +1,12 @@
+@import "variables";
+@mixin borderradius {
+    border-radius: 30px;
+}
 
-
+.sizelogo{
+    width: 200px;
+    height: 100px;
+}
 .agente{
     display: flex;
     justify-content: center ;
@@ -10,10 +17,13 @@
     background-size: cover;
     justify-content: center;
     overflow: hidden;
-    border-radius: 30px;
+    @include borderradius;
 }
 article{
     margin-bottom: 5%;
+}
+.styleidsubtitulo{
+color: $textcoloryellow;
 }
 .ubibtn{
    justify-content: center;
@@ -28,22 +38,20 @@ article{
     color: blanchedalmond;
 }
 .cuadrogralslide{
-border-radius: 25px;
-}
-.slidesize{
-
-    object-fit: contain;
-    background-position: center center;
-    background-size: cover;
-    justify-content: center;
-    overflow: hidden;
-    height: 70vh;
+@include borderradius;
+display: flex;
+flex-flow: column wrap;
+justify-content: center ;
+align-items: center center;
+width: 50vw;
+height: 70vh;
 }
 @media (max-width: 480px){
-    .espacio{
-        margin-top: 5%;
-        position: relative;
-    }
+    .sizelogo{
+        width: 150px; 
+        height: 75px;
+        margin-top: 2vh;}
+
     .agente{
     width: 75vw;
    }
@@ -55,8 +63,7 @@ border-radius: 25px;
    .coffework{
     margin-bottom: 15%;
    }
-   .slidesize{
-    margin-bottom: -20%;
-   }
- 
+   .cuadrogralslide{
+    height: 40vh;
+    }
  }

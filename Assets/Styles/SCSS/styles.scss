@@ -1,5 +1,7 @@
 @import "variables";
-
+@mixin borderradius {
+    border-radius: 25px;
+}
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +19,10 @@
 .logoubicacion {
     margin: 5vh;
 }
+.sizelogo{
+width: 200px; 
+height: 100px;
+}
 
 /*BOTON MIS VIAJES*/
 .headernav {
@@ -30,7 +36,7 @@
     font-weight: bold;
     padding: 5px 1% 5px 1%;
     margin: 5vh;
-    border-radius: 25px;
+    @include borderradius;
 }
 
 .headernav a {
@@ -63,7 +69,7 @@
     width: 150px;
     background-color: rgb(207, 207, 207);
     opacity: 80%;
-    border-radius: 25px;
+    @include borderradius;
 }
 
 nav ul li a:hover {
@@ -170,12 +176,17 @@ nav ul li a {
 }
 
 @media (max-width: 480px) {
+    .sizelogo {
+        width: 150px; 
+        height: 75px;
+        margin-top: 2vh;
+    }
     .headernav {
         font-size: 12px;
         font-weight: bold;
         padding: 5px 1% 5px 1%;
         margin: 9vh;
-        border-radius: 25px;
+        @include borderradius;
     }
 
     .ul {
@@ -197,10 +208,18 @@ nav ul li a {
         display: block;
         flex-direction: column;
         justify-content: center;
+        text-align: center;
     }
 
     .arttext {
         width: 80vw;
+    }
+    .styleidh4 {
+        font-size: 20px;
+    }
+    .styleidp {
+        font-size: 13px;
+        padding-bottom: 8px;
     }
 
     .divsizecarousel {

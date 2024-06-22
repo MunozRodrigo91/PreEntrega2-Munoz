@@ -16,6 +16,11 @@
   margin: 5vh;
 }
 
+.sizelogo {
+  width: 200px;
+  height: 100px;
+}
+
 /*BOTON MIS VIAJES*/
 .headernav {
   background-color: rgb(199, 0, 57);
@@ -166,6 +171,11 @@ nav ul li a {
 }
 
 @media (max-width: 480px) {
+  .sizelogo {
+    width: 150px;
+    height: 75px;
+    margin-top: 2vh;
+  }
   .headernav {
     font-size: 12px;
     font-weight: bold;
@@ -189,9 +199,17 @@ nav ul li a {
     display: block;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
   }
   .arttext {
     width: 80vw;
+  }
+  .styleidh4 {
+    font-size: 20px;
+  }
+  .styleidp {
+    font-size: 13px;
+    padding-bottom: 8px;
   }
   .divsizecarousel {
     margin-left: 0;

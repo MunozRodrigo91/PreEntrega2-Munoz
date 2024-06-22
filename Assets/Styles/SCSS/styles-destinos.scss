@@ -1,37 +1,56 @@
+@mixin size{
+    width: 99vw; 
+    height: 35vh;
+}
+@mixin mediasize{
+    width: 102vw; 
+    height: 30vh;
+}
+
+.sizelogo {
+    width: 200px;
+    height: 100px;
+  }
 .ordenfte{
     background-image: url(./../imagenes/fte1.jpg);
     background-position: 14% 86%;
     background-size: cover;
-    border-radius: 45px;  
+    border-radius: 45px; 
+    @include size;
  }
  .ordenbrc{
      background-image: url(./../imagenes/brc.jpg);
      background-position: 30% 70%;
      background-size: cover;
-     border-radius: 45px;   
+     border-radius: 45px; 
+     @include size;  
   }
   .ordenter{
      background-image: url(./../imagenes/termas.jpg);
      background-position: 29% 71%;
      background-size: cover;
-     border-radius: 45px;   
+     border-radius: 45px;  
+     @include size;
   }
   .ordenigr{
      background-image: url(./../imagenes/igr.jpg);
      background-position: 35% 65%;
      background-size: cover;
-     border-radius: 45px;   
+     border-radius: 45px; 
+     @include size;  
   }
   .ordenmdz{
      background-image: url(./../imagenes/mdz.jpg);
      background-position: 25% 75%;
      background-size: cover;
-     border-radius: 45px;   
+     border-radius: 45px; 
+     @include size;  
   }
- 
+
  .ubicacion{
      position: relative;
-     text-align: center;  
+     text-align: center;
+     justify-content: center;  
  }
  .ubicacion2{
      display: flex;
@@ -79,6 +98,27 @@
      color: white;
  }
  @media (max-width: 480px){
+    .sizelogo {
+        width: 150px; 
+        height: 75px;
+        margin-top: 2vh;
+    }
+    .ordenfte{
+        @include mediasize;
+     }
+     .ordenbrc{
+        @include mediasize;
+     }
+     .ordenter{
+        @include mediasize;
+     }
+     .ordenigr{
+      @include mediasize;
+     }
+     .ordenmdz{
+      @include mediasize;
+     }
+
      .sizetext1{
          font-size: 20px;
      }
